@@ -14,4 +14,3 @@ $ git add <nama file>
 $ git commit 
 $ git commit -m "<pesan>"
 ```
-
