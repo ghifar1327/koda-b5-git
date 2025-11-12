@@ -1,15 +1,16 @@
 # PRAKTIK GIT
-## inisilisasi git
+## inisialisasi git (init)
 ```sh
 $ git init
 ```
-## perubahan sementara
+## perubahan sementara (staging)
 menyimpan perubahan sementara dari working directory ke dalam staging 
 ```sh
-$ git add .
-$ git add <nama file>
+$ git add <...dir_file>
+$ git add <...dir_folder>
 ```
-## perubahan permanen
+## perubahan permanen (commit)
+menyimpan seluruh staging menjadi permanen,pesan commit berdasarkan [konvesional git]
 ```sh
 $ git commit 
 $ git commit -m "<pesan>"
